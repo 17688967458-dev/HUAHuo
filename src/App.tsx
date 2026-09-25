@@ -504,7 +504,7 @@ function KeyScenes() {
       detail: '结局镜头：面具映出火光与恐惧的脸。画面骤然切黑，只留下戏曲鸣锣与面具碎裂声，血红标题在黑屏中浮现——《虚无的庆典》。',
       line: '“从今晚起，我是庄家，我是导演……欢愉开场，请各位——入局收尸。”',
       mapping: '出世：开阔空间、血红与金黄的强光、面具与烟雾，让她从被凝视者反转为主宰与凝视众生的人。',
-      image: 'https://17688967458-dev.github.io/HUAHuo/scene-4-ascendant.png'
+      image: 'https://17688967458-dev.github.io/HUAHuo/scene-4-ascendant.png',
       secondaryImage: 'https://17688967458-dev.github.io/HUAHuo/scene-5-ascendant.png',
     },
   ]
