@@ -1,4 +1,10 @@
-# Query: '/ 
+# Query: src/App.tsx
 # ContextLines: 1
 
-No Results
+2 results - 1 file
+
+AGENTS.md:
+  15  
+  16: - `src/main.tsx` - React entrypoint; imports `src/index.css` and mounts `src/App.tsx` into the `#root` element
+  17: - `src/App.tsx` - Primary application component and the usual starting point for UI work
+  18  - `src/index.css` - Global CSS entrypoint and Tailwind CSS v4 import
