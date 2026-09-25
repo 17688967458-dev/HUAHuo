@@ -464,7 +464,7 @@ function KeyScenes() {
       detail: '特写：雨水顺着门缝渗入，映出她眼中的迷茫。她紧握一枚带血的金币——旧秩序许下的承诺，也是扣在她腕上的枷锁。',
       line: '“规矩？他们演禽兽……演得可真够卖力啊。”',
       mapping: '入世：被动体态、狭窄空间、冷灰色调与他人的凝视，共同构成无法逃脱的世俗困局。',
-      image: '/scene-1-youth.png',
+      image: 'https://17688967458-dev.github.io/HUAHuo/scene-1-youth.png',
     },
     {
       num: '02',
@@ -477,7 +477,7 @@ function KeyScenes() {
       detail: '特写：烟枪前端的猩红微光照亮她失去温度的眼睛。灰烬落下，不是死亡，而是她第一次看见“现实”也不过是一张可烧毁的布景。',
       line: '“这世界本就是个昼夜不停的滑稽马戏团。既然开幕了，就让他们……演个够。”',
       mapping: '觉醒：烟雾解构严肃的现实，色彩从冷灰裂开一道缝，虚无开始取代对规则的恐惧。',
-      image: '/scene-2-struggle.png',
+      image: 'https://17688967458-dev.github.io/HUAHuo/scene-2-struggle.png',
     },
     {
       num: '03',
@@ -490,7 +490,7 @@ function KeyScenes() {
       detail: '同位切换：剪刀剪断长发的声音，接续为烟枪敲击金属案台的重响。断发落入泥水，被沾血的金币践踏。',
       line: '“地盘？金币？不过是烂剧本上的油墨……这场戏，老娘不演了！”',
       mapping: '破局：主动摧毁旧有符号，身体从傀儡变成行动者，世俗羁绊在一个剪辑点上被彻底撕裂。',
-      image: '/scene-3-struggle.png',
+      image: 'https://17688967458-dev.github.io/HUAHuo/scene-3-struggle.png'
     },
     {
       num: '04',
@@ -503,8 +503,8 @@ function KeyScenes() {
       detail: '结局镜头：面具映出火光与恐惧的脸。画面骤然切黑，只留下戏曲鸣锣与面具碎裂声，血红标题在黑屏中浮现——《虚无的庆典》。',
       line: '“从今晚起，我是庄家，我是导演……欢愉开场，请各位——入局收尸。”',
       mapping: '出世：开阔空间、血红与金黄的强光、面具与烟雾，让她从被凝视者反转为主宰与凝视众生的人。',
-      image: '/scene-4-ascendant.png',
-      secondaryImage: '/scene-5-ascendant.png',
+      image: 'https://17688967458-dev.github.io/HUAHuo/scene-4-ascendant.png'
+      secondaryImage: 'https://17688967458-dev.github.io/HUAHuo/scene-5-ascendant.png',
     },
   ]
 
@@ -627,7 +627,7 @@ export default function App() {
 
   return (
     <div style={{ background: '#0B0B0B', minHeight: '100vh' }}>
-      <audio ref={audioRef} src="/huahuo.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="https://17688967458-dev.github.io/HUAHuo/huahuo.mp3" />
       <Hero onScroll={scrollToChapter} />
       <div id="ch1">
         <ChapterDivider num="01" zh="概念与哲学底座" en="Concept & Philosophy" />
