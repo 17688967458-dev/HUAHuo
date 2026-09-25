@@ -4,6 +4,7 @@ import {
   FormOneFigure, FormOneEmotions,
   FormTwoKeyArt, TattooPattern,
   FormThreeFigure,
+  
 } from './CarnivalArt'
 
 const characterProfile = {
