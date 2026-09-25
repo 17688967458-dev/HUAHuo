@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Abril Fatface', Georgia, serif;
+  --font-serif: 'Lora', Georgia, serif;
+  --font-mono: 'Space Mono', monospace;
+  --font-body: 'Source Sans 3', system-ui, sans-serif;
+
+  --color-ink: #0B0B0B;
+  --color-crimson: #8B0000;
+  --color-gold: #D4AF37;
+  --color-gold-dim: #A8872A;
+  --color-surface: #110505;
+  --color-surface-mid: #1C0808;
+  --color-border-dark: rgba(139,0,0,0.25);
+  --color-border-gold: rgba(212,175,55,0.2);
+  --color-text-dim: rgba(255,255,255,0.45);
+  --color-text-body: rgba(255,255,255,0.78);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #0B0B0B;
+  color: rgba(255,255,255,0.78);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(139,0,0,0.55);
+  color: #fff;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0B0B0B; }
+::-webkit-scrollbar-thumb { background: #3D0000; border-radius: 2px; }

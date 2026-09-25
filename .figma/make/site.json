@@ -1,0 +1,11 @@
+{
+  "title": "花火欢愉",
+  "description": "Connects travelers with local guides for personalized tours, enhancing travel experiences through authentic local insights and cultural immersion.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
